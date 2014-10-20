@@ -513,7 +513,7 @@ if ( typeof define === 'function' && define.amd ) {
 } else if (typeof exports === 'object') {
   // CommonJS
   module.exports = outlayerItemDefinition(
-    require('eventemitter'),
+    require('EventEmitter'),
     require('get-size'),
     require('get-style-property')
   );
